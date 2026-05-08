@@ -1,0 +1,855 @@
+
+@media (max-width: 2400px) {  
+    @keyframes tab2IMG {
+        0% {
+            position: absolute;
+            top: 5vh;
+            left: 52vw;
+            width: 0vw;
+            height: 0vh;
+        }
+        50% {
+            position: absolute;
+            top: 60vh;
+            left: 52vw;
+            width: 40.5vw;
+            height: 34.4vh;
+        }
+        100%{
+            position: absolute;
+            top: 11vh;
+            left: 0vw;
+            height: 89vh;
+            width: 68.9vw;
+            }
+    }
+    @keyframes textRight {
+        0%{
+            position: absolute;
+            top: 5vh;
+            left: 52vw;
+            min-width: 0;
+            width: 5vw;
+            font-size: 0.1vw;
+        }
+        50%{
+            position: absolute;
+            top: 60vh;
+            left: 51vw;
+            min-width: 0;
+            width: 15vw;
+            font-size: 1vw;
+        }
+        100%{
+            position: absolute;
+            top: 23vh;
+            left: 69vw;
+            min-width: 0;
+            width: 30vw;
+            font-size: 2vw;        }
+    }
+    .iframeVideo {
+        position: absolute;
+        top: 17.6vh;
+        left: 0vw;
+        width: 68.8vw;
+        height: 79.6vh;
+    }
+    .main-content-workSamples-b1 {
+        position: absolute;
+        top: 31vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b2 {
+        position: absolute;
+        top: 39.4vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b3 {
+        position: absolute;
+        top: 48.6vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b4 {
+        position: absolute;
+        top: 57.3vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b5 {
+        position: absolute;
+        top: 65.9vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b6 {
+        position: absolute;
+        top: 74.6vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b7 {
+        position: absolute;
+        top: 83.4vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-bCh1 {
+        position: absolute;
+        top: 20.9vh;
+        left: 66vw;
+        width: 1.3vw;
+        height: 2.7vh;
+    }
+    .main-content-workSamples-img {
+        position: absolute;
+        top: 11vh;
+        height: 90vh;
+        width: 70vw;
+        animation: tab2IMG 5s ease-in-out forwards;
+    }
+    .main-content-workSamples-backArrow {
+        position: absolute;
+        top: 14.9vh;
+        left: 0.3vw;
+        width: 1vw;
+        height: 1.2vh;
+    }
+    .yourChannel {
+        position: absolute;
+        top: 33.8vh;
+        left: 57.6vw;
+        width: 10vw;
+        height: 2vh;
+    }
+    .main-content-workSamples-playList {
+        position: absolute;
+        top: 38.5vh;
+        left: 27.8vw;
+        width: 3vw;
+        height: 2vh;
+    }
+    .main-content-workSamples-toChannel {
+        position: absolute;
+        top: 56.3vh;
+        left: 10.3vw;
+        width: 1.5vw;
+        height: 3vh;
+        background-color: white;
+    }
+    .main-content-workSamples-toChannel-link {
+        opacity: 0.0;
+        width: 5.1vw;
+        height: 11vh;
+        font-size: 5vw;
+    }
+    .main-content-workSamples-Text {
+        position: absolute;
+        top: 23vh;
+        left: 69vw;
+        min-width: 0;
+        width: 30vw;
+        font-size: 2vw;
+        animation: textRight 8s ease-in-out forwards;
+    }
+    .toChannel2 {
+        top: 26vh;
+        left: 15.3vw;
+        width: 5vw;
+        height: 11.5vh;
+    } 
+}
+
+@media (max-width: 1200px) {  
+    @keyframes tab2IMG {
+        0% {
+            position: absolute;
+            top: 5vh;
+            left: 60vw;
+            width: 0vw;
+            height: 0vh;
+        }
+        50% {
+            position: absolute;
+            top: 60vh;
+            left: 52vw;
+            width: 40.5vw;
+            height: 34.4vh;
+        }
+        100%{
+            position: absolute;
+            top: 12vh;
+            left: 0vw;
+            height: 86vh;
+            width: 68.9vw;
+            }
+    }
+    @keyframes textRight {
+        0%{
+            position: absolute;
+            top: 5vh;
+            left: 60vw;
+            min-width: 0;
+            width: 5vw;
+            font-size: 0.1vw;
+        }
+        50%{
+            position: absolute;
+            top: 60vh;
+            left: 51vw;
+            min-width: 0;
+            width: 15vw;
+            font-size: 1vw;
+        }
+        100%{
+            position: absolute;
+            top: 23vh;
+            left: 69vw;
+            min-width: 0;
+            width: 30vw;
+            font-size: 2vw;        }
+    } 
+    .iframeVideo {
+        position: absolute;
+        top: 17.6vh;
+        left: 0vw;
+        width: 68.6vw;
+        height: 77.6vh;
+    }
+    .main-content-workSamples-b1 {
+        position: absolute;
+        top: 31vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b2 {
+        position: absolute;
+        top: 39.4vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b3 {
+        position: absolute;
+        top: 48.2vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b4 {
+        position: absolute;
+        top: 56.3vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b5 {
+        position: absolute;
+        top: 64.9vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b6 {
+        position: absolute;
+        top: 73.4vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b7 {
+        position: absolute;
+        top: 81.7vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-bCh1 {
+        position: absolute;
+        top: 20.9vh;
+        left: 66vw;
+        width: 1.3vw;
+        height: 2.7vh;
+    }
+    .main-content-workSamples-img {
+        position: absolute;
+        top: 11vh;
+        height: 90vh;
+        width: 70vw;
+        animation: tab2IMG 5s ease-in-out forwards;
+    }
+    .main-content-workSamples-backArrow {
+        position: absolute;
+        top: 15.9vh;
+        left: 0.3vw;
+        width: 1vw;
+        height: 1.2vh;
+    }
+    .yourChannel {
+        position: absolute;
+        top: 33.5vh;
+        left: 57.6vw;
+        width: 10vw;
+        height: 2vh;
+    }
+    .main-content-workSamples-playList {
+        position: absolute;
+        top: 38.5vh;
+        left: 27.8vw;
+        width: 3vw;
+        height: 2vh;
+    }
+    .main-content-workSamples-toChannel {
+        position: absolute;
+        top: 56.3vh;
+        left: 10.3vw;
+        width: 1.5vw;
+        height: 3vh;
+        background-color: white;
+    }
+    .main-content-workSamples-toChannel-link {
+        opacity: 0.0;
+        width: 5.1vw;
+        height: 11vh;
+        font-size: 5vw;
+    }
+    .main-content-workSamples-Text {
+        position: absolute;
+        top: 23vh;
+        left: 69vw;
+        min-width: 0;
+        width: 30vw;
+        font-size: 2vw;
+        animation: textRight 8s ease-in-out forwards;
+    }
+    .toChannel2 {
+        top: 26vh;
+        left: 15.3vw;
+        width: 5vw;
+        height: 11.5vh;
+    }
+}
+
+@media (max-width: 992px) {  
+    @keyframes tab2IMG {
+        0% {
+            position: absolute;
+            top: 5vh;
+            left: 52vw;
+            width: 0vw;
+            height: 0vh;
+        }
+        50% {
+            position: absolute;
+            top: 60vh;
+            left: 52vw;
+            width: 40.5vw;
+            height: 34.4vh;
+        }
+        100%{
+            position: absolute;
+            top: 11vh;
+            left: 0vw;
+            height: 89vh;
+            width: 68.9vw;
+            }
+    }
+    @keyframes textRight {
+        0%{
+            position: absolute;
+            top: 5vh;
+            left: 52vw;
+            min-width: 0;
+            width: 5vw;
+            font-size: 0.1vw;
+        }
+        50%{
+            position: absolute;
+            top: 60vh;
+            left: 51vw;
+            min-width: 0;
+            width: 15vw;
+            font-size: 1vw;
+        }
+        100%{
+            position: absolute;
+            top: 23vh;
+            left: 69vw;
+            min-width: 0;
+            width: 30vw;
+            font-size: 2vw;        }
+    } 
+    .iframeVideo {
+        position: absolute;
+        top: 17.6vh;
+        left: 0vw;
+        width: 68.5vw;
+        height: 79.6vh;
+    }
+    .main-content-workSamples-b1 {
+        position: absolute;
+        top: 31vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b2 {
+        position: absolute;
+        top: 39.4vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b3 {
+        position: absolute;
+        top: 48.6vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b4 {
+        position: absolute;
+        top: 57.3vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b5 {
+        position: absolute;
+        top: 65.9vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b6 {
+        position: absolute;
+        top: 74.6vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b7 {
+        position: absolute;
+        top: 83.4vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-bCh1 {
+        position: absolute;
+        top: 20.9vh;
+        left: 66vw;
+        width: 1.3vw;
+        height: 2.7vh;
+    }
+    .main-content-workSamples-img {
+        position: absolute;
+        top: 11vh;
+        height: 90vh;
+        width: 70vw;
+        animation: tab2IMG 5s ease-in-out forwards;
+    }
+    .main-content-workSamples-backArrow {
+        position: absolute;
+        top: 14.9vh;
+        left: 0.3vw;
+        width: 1vw;
+        height: 1.2vh;
+    }
+    .yourChannel {
+        position: absolute;
+        top: 33.9vh;
+        left: 57.6vw;
+        width: 10vw;
+        height: 2vh;
+    }
+    .main-content-workSamples-playList {
+        position: absolute;
+        top: 38.5vh;
+        left: 27.8vw;
+        width: 3vw;
+        height: 2vh;
+    }
+    .main-content-workSamples-toChannel {
+        position: absolute;
+        top: 56.3vh;
+        left: 10.3vw;
+        width: 1.5vw;
+        height: 3vh;
+        background-color: white;
+    }
+    .main-content-workSamples-toChannel-link {
+        opacity: 0.0;
+        width: 5.1vw;
+        height: 11vh;
+        font-size: 5vw;
+    }
+    .main-content-workSamples-Text {
+        position: absolute;
+        top: 23vh;
+        left: 69vw;
+        min-width: 0;
+        width: 30vw;
+        font-size: 2vw;
+        animation: textRight 8s ease-in-out forwards;
+    }
+    .toChannel2 {
+        top: 26vh;
+        left: 15.3vw;
+        width: 5vw;
+        height: 11.5vh;
+    }
+}
+
+@media (max-width: 768px) {  
+    @keyframes tab2IMG {
+        0% {
+            position: absolute;
+            top: 5vh;
+            left: 52vw;
+            width: 0vw;
+            height: 0vh;
+        }
+        50% {
+            position: absolute;
+            top: 60vh;
+            left: 52vw;
+            width: 40.5vw;
+            height: 34.4vh;
+        }
+        100%{
+            position: absolute;
+            top: 11vh;
+            left: 0vw;
+            height: 89vh;
+            width: 68.9vw;
+            }
+    }
+    @keyframes textRight {
+        0%{
+            position: absolute;
+            top: 5vh;
+            left: 52vw;
+            min-width: 0;
+            width: 5vw;
+            font-size: 0.1vw;
+        }
+        50%{
+            position: absolute;
+            top: 60vh;
+            left: 51vw;
+            min-width: 0;
+            width: 15vw;
+            font-size: 1vw;
+        }
+        100%{
+            position: absolute;
+            top: 23vh;
+            left: 69vw;
+            min-width: 0;
+            width: 30vw;
+            font-size: 2vw;        }
+    } 
+    .iframeVideo {
+        position: absolute;
+        top: 17.6vh;
+        left: 0vw;
+        width: 68.5vw;
+        height: 79.6vh;
+    }
+    .main-content-workSamples-b1 {
+        position: absolute;
+        top: 31vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b2 {
+        position: absolute;
+        top: 39.4vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b3 {
+        position: absolute;
+        top: 48.6vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b4 {
+        position: absolute;
+        top: 57.3vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b5 {
+        position: absolute;
+        top: 65.9vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b6 {
+        position: absolute;
+        top: 74.6vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b7 {
+        position: absolute;
+        top: 83.4vh;
+        left: 23.8vw;
+        width: 28.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-bCh1 {
+        position: absolute;
+        top: 20.9vh;
+        left: 66vw;
+        width: 1.3vw;
+        height: 2.7vh;
+    }
+    .main-content-workSamples-img {
+        position: absolute;
+        top: 11vh;
+        height: 90vh;
+        width: 70vw;
+        animation: tab2IMG 5s ease-in-out forwards;
+    }
+    .main-content-workSamples-backArrow {
+        position: absolute;
+        top: 14.9vh;
+        left: 0.3vw;
+        width: 1vw;
+        height: 1.2vh;
+    }
+    .yourChannel {
+        position: absolute;
+        top: 33.5vh;
+        left: 57.6vw;
+        width: 10vw;
+        height: 2vh;
+    }
+    .main-content-workSamples-playList {
+        position: absolute;
+        top: 38.5vh;
+        left: 27.8vw;
+        width: 3vw;
+        height: 2vh;
+    }
+    .main-content-workSamples-toChannel {
+        position: absolute;
+        top: 56.3vh;
+        left: 11.3vw;
+        width: 1.5vw;
+        height: 3vh;
+        background-color: white;
+    }
+    .main-content-workSamples-toChannel-link {
+        opacity: 0.0;
+        width: 5.1vw;
+        height: 11vh;
+        font-size: 5vw;
+    }
+    .main-content-workSamples-Text {
+        position: absolute;
+        top: 23vh;
+        left: 69vw;
+        min-width: 0;
+        width: 30vw;
+        font-size: 2vw;
+        animation: textRight 8s ease-in-out forwards;
+    }
+    .toChannel2 {
+        top: 26vh;
+        left: 15.3vw;
+        width: 5vw;
+        height: 11.5vh;
+    }
+}
+
+@media (max-width: 600px) {  
+    @keyframes tab2IMG {
+        0% {
+            position: absolute;
+            top: 5vh;
+            left: 52vw;
+            width: 0vw;
+            height: 0vh;
+        }
+        50% {
+            position: absolute;
+            top: 60vh;
+            left: 52vw;
+            width: 40.5vw;
+            height: 34.4vh;
+        }
+        100%{
+            position: absolute;
+            top: 9vh;
+            left: 0vw;
+            height: 89vh;
+            width: 100vw;
+            }
+    }
+    @keyframes textRight {
+        0%{
+            position: absolute;
+            top: 5vh;
+            left: 52vw;
+            min-width: 0;
+            width: 5vw;
+            font-size: 0.1vw;
+        }
+        50%{
+            position: absolute;
+            top: 60vh;
+            left: 51vw;
+            min-width: 0;
+            width: 15vw;
+            font-size: 1vw;
+        }
+        100%{
+            position: absolute;
+            top: 98vh;
+            left: 25vw;
+            min-width: 0;
+            width: 50vw;
+            font-size: 2vw;        }
+    } 
+    .main-content-workSamples-b1 {
+        position: absolute;
+        top: 29vh;
+        left: 33.8vw;
+        width: 42.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b2 {
+        position: absolute;
+        top: 37.4vh;
+        left: 33.8vw;
+        width: 42.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b3 {
+        position: absolute;
+        top: 46.6vh;
+        left: 33.8vw;
+        width: 42.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b4 {
+        position: absolute;
+        top: 55.1vh;
+        left: 33.8vw;
+        width: 42.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b5 {
+        position: absolute;
+        top: 63.9vh;
+        left: 33.8vw;
+        width: 42.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b6 {
+        position: absolute;
+        top: 72.6vh;
+        left: 33.8vw;
+        width: 42.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-b7 {
+        position: absolute;
+        top: 81.4vh;
+        left: 33.8vw;
+        width: 42.1vw;
+        height: 7.5vh;
+    }
+    .main-content-workSamples-bCh1 {
+        position: absolute;
+        top: 18.9vh;
+        left: 94.9vw;
+        width: 1.3vw;
+        height: 2.7vh;
+    }
+    .main-content-workSamples-img {
+        position: absolute;
+        top: 11vh;
+        height: 90vh;
+        width: 70vw;
+        animation: tab2IMG 5s ease-in-out forwards;
+    }
+    .main-content-workSamples-backArrow {
+        position: absolute;
+        top: 12.9vh;
+        left: 0.3vw;
+        width: 1vw;
+        height: 1.2vh;
+    }
+    .yourChannel {
+        position: absolute;
+        top: 31.5vh;
+        left: 82.6vw;
+        width: 10vw;
+        height: 2vh;
+    }
+    .main-content-workSamples-playList {
+        position: absolute;
+        top: 36.5vh;
+        left: 39.8vw;
+        width: 6vw;
+        height: 2vh;
+    }
+    .main-content-workSamples-toChannel {
+        position: absolute;
+        top: 54.3vh;
+        left: 14.3vw;
+        width: 1.5vw;
+        height: 3vh;
+        background-color: white;
+    }
+    .main-content-workSamples-toChannel-link {
+        opacity: 0.0;
+        width: 5.1vw;
+        height: 11vh;
+        font-size: 5vw;
+    }
+    .main-content-workSamples-Text {
+        position: absolute;
+        top: 23vh;
+        left: 69vw;
+        min-width: 0;
+        width: 30vw;
+        font-size: 2vw;
+        animation: textRight 8s ease-in-out forwards;
+    }
+    .toChannel2 {
+        top: 24vh;
+        left: 22vw;
+        width: 7.1vw;
+        height: 11vh;
+    }
+    .iframeVideo {
+        position: absolute;
+        top: 17.6vh;
+        left: 0vw;
+        width: 99.5vw;
+        height: 78.1vh;
+    }
+}

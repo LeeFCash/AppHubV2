@@ -1,0 +1,1585 @@
+@media (max-width: 2400px) {
+    @keyframes img {
+        0% {
+            position: absolute;
+            top: 22vh;
+            left: 101vw;
+            width: 10vw;
+            height: 10vh;
+        }
+        50% {
+            position: absolute;
+            top: 22vh;
+            left: 25vw;
+            width: 10vw;
+            height: 10vh;
+        }
+        100% {
+            position: absolute;
+            top: 11vh;
+            left: 25vw;
+            width: 74vw;
+            height: 88.8vh;
+        }
+    }
+    @keyframes img2 {
+        0% {
+            top: 21vh;
+        left: -10vw;
+        width: 5vw;
+        height: 16vh;
+        }
+        50% {
+            top: 21vh;
+        left: 0vw;
+        width: 5vw;
+        height: 16vh;
+        }
+        100% {
+            top: 21vh;
+        left: 0vw;
+        width: 25vw;
+        height: 74vh;
+        }
+    }
+    @keyframes textDiv {
+        0% {opacity: 0;}
+        100% {opacity: 1.5;}
+    }
+    .main-content-contactMe-img {
+        position: absolute;
+        top: 11vh;
+        left: 25vw;
+        width: 74vw;
+        height: 88.8vh;
+        animation: img 5s ease-in-out forwards;
+    }
+    .main-content-contactMe-text {
+        width: 50vw;
+    }
+    .main-content-contactMe-text1 {
+        font-size: 2.3vh;
+        min-width: 0vw;
+        width: 50vw;
+    }
+    .text-link {
+        font-size: 3vh;
+    }
+    .composs {
+        position: absolute;
+        top: 26vh;
+        left: 28vw;
+        height: 5vh;
+        width: 5vw;
+    }
+    .main-content-contactMe-img2 {
+        position: absolute;
+        top: 21vh;
+        left: 0vw;
+        width: 25vw;
+        height: 74vh;
+        animation: img2 5s ease-in-out forwards;
+    }
+    .textDiv0 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv1 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv2 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv3 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv4 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv5 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv6 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv7 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv8 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv9 {
+        opacity: 1.5;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv10 {
+        opacity: 1.5;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv11 {
+        opacity: 1.5;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv12 {
+        opacity: 1.5;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv13 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv14 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv15 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv6 {
+        opacity: 1.5;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv7 {
+        opacity: 1.5;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv18 {
+        opacity: 1.5;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv19 {
+        opacity: 1.5;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv20 {
+        opacity: 1.5;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv21 {
+        opacity: 1.5;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv22 {
+        opacity: 1.5;
+        animation: textDiv 10s ease-in-out forwards;
+    }
+    .textDiv23 {
+        opacity: 1.5;
+        animation: textDiv 11s ease-in-out forwards;
+    }
+    .textDiv24 {
+        opacity: 1.5;
+        animation: textDiv 12s ease-in-out forwards;
+    }
+    .textDiv25 {
+        opacity: 1.5;
+        animation: textDiv 13s ease-in-out forwards;
+    }
+    .textDiv26 {
+        opacity: 1.5;
+        animation: textDiv 14s ease-in-out forwards;
+    }
+    .textDiv27 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv28 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv29 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv30 {
+        opacity: 1.5;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv31 {
+        opacity: 1.5;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv32 {
+        opacity: 1.5;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv33 {
+        opacity: 1.5;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv34 {
+        opacity: 1.5;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv35 {
+        opacity: 1.5;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv36 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv37 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv38 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv39 {
+        opacity: 1.5;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv40 {
+        opacity: 1.5;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv41 {
+        opacity: 1.5;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv42 {
+        opacity: 1.5;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv43 {
+        opacity: 1.5;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv44 {
+        opacity: 1.5;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv45 {
+        opacity: 1.5;
+        animation: textDiv 10s ease-in-out forwards;
+    }
+    .textDiv45 {
+        opacity: 1.5;
+        animation: textDiv 11s ease-in-out forwards;
+    }
+    .textDiv46 {
+        opacity: 1.5;
+        animation: textDiv 12s ease-in-out forwards;
+    }
+    .textDiv47 {
+        opacity: 1.5;
+        animation: textDiv 13s ease-in-out forwards;
+    }
+    .textDiv48 {
+        opacity: 1.5;
+        animation: textDiv 14s ease-in-out forwards;
+    }
+    .textDiv49 {
+        opacity: 1.5;
+        animation: textDiv 15s ease-in-out forwards;
+    }
+    .textDiv50 {
+        opacity: 1.5;
+        animation: textDiv 16s ease-in-out forwards;
+    }
+    .textDiv51 {
+        opacity: 1.5;
+        animation: textDiv 17s ease-in-out forwards;
+    }
+}
+
+@media (max-width: 1200px) {
+    @keyframes img {
+        0% {
+            position: absolute;
+            top: 22vh;
+            left: 101vw;
+            width: 10vw;
+            height: 10vh;
+        }
+        50% {
+            position: absolute;
+            top: 22vh;
+            left: 25vw;
+            width: 10vw;
+            height: 10vh;
+        }
+        100% {
+            position: absolute;
+            top: 11vh;
+            left: 25vw;
+            width: 74vw;
+            height: 88.8vh;
+        }
+    }
+    @keyframes img2 {
+        0% {
+            top: 21vh;
+        left: -10vw;
+        width: 5vw;
+        height: 16vh;
+        }
+        50% {
+            top: 21vh;
+        left: 0vw;
+        width: 5vw;
+        height: 16vh;
+        }
+        100% {
+            top: 21vh;
+        left: 0vw;
+        width: 25vw;
+        height: 74vh;
+        }
+    }
+    @keyframes textDiv {
+        0% {opacity: 0;}
+        100% {opacity: 1.5;}
+    }
+    .main-content-contactMe-img {
+        position: absolute;
+        top: 11vh;
+        left: 25vw;
+        width: 74vw;
+        height: 88.8vh;
+        animation: img 5s ease-in-out forwards;
+    }
+    .main-content-contactMe-text {
+        width: 50vw;
+    }
+    .main-content-contactMe-text1 {
+        font-size: 2.3vh;
+        min-width: 0vw;
+        width: 50vw;
+    }
+    .text-link {
+        font-size: 3vh;
+    }
+    .composs {
+        position: absolute;
+        top: 26vh;
+        left: 28vw;
+        height: 5vh;
+        width: 5vw;
+    }
+    .main-content-contactMe-img2 {
+        position: absolute;
+        top: 21vh;
+        left: 0vw;
+        width: 25vw;
+        height: 74vh;
+        animation: img2 5s ease-in-out forwards;
+    }
+    .textDiv0 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv1 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv2 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv3 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv4 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv5 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv6 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv7 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv8 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv9 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv10 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv11 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv12 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv13 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv14 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv15 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv16 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv17 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv18 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv19 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv20 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv21 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv22 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 10s ease-in-out forwards;
+    }
+    .textDiv23 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 11s ease-in-out forwards;
+    }
+    .textDiv24 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 12s ease-in-out forwards;
+    }
+    .textDiv25 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 13s ease-in-out forwards;
+    }
+    .textDiv26 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 14s ease-in-out forwards;
+    }
+    .textDiv27 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv28 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv29 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv30 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv31 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv32 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv33 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv34 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv35 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv36 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv37 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv38 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv39 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv40 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv41 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv42 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv43 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv44 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv45 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 10s ease-in-out forwards;
+    }
+    .textDiv45 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 11s ease-in-out forwards;
+    }
+    .textDiv46 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 12s ease-in-out forwards;
+    }
+    .textDiv47 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 13s ease-in-out forwards;
+    }
+    .textDiv48 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 14s ease-in-out forwards;
+    }
+    .textDiv49 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 15s ease-in-out forwards;
+    }
+    .textDiv50 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 16s ease-in-out forwards;
+    }
+    .textDiv51 {
+        opacity: 1.5;
+        font-size: 1vw;
+        animation: textDiv 17s ease-in-out forwards;
+    }
+}
+
+@media (max-width: 992px) {
+    @keyframes img {
+        0% {
+            position: absolute;
+            top: 22vh;
+            left: 101vw;
+            width: 10vw;
+            height: 10vh;
+        }
+        50% {
+            position: absolute;
+            top: 22vh;
+            left: 25vw;
+            width: 10vw;
+            height: 10vh;
+        }
+        100% {
+            position: absolute;
+            top: 11vh;
+            left: 25vw;
+            width: 74vw;
+            height: 88.8vh;
+        }
+    }
+    @keyframes img2 {
+        0% {
+            top: 21vh;
+        left: -10vw;
+        width: 5vw;
+        height: 16vh;
+        }
+        50% {
+            top: 21vh;
+        left: 0vw;
+        width: 5vw;
+        height: 16vh;
+        }
+        100% {
+            top: 21vh;
+        left: 0vw;
+        width: 25vw;
+        height: 74vh;
+        }
+    }
+    @keyframes textDiv {
+        0% {opacity: 0;}
+        100% {opacity: 1.5;}
+    }
+    .main-content-contactMe-img {
+        position: absolute;
+        top: 11vh;
+        left: 25vw;
+        width: 74vw;
+        height: 88.8vh;
+        animation: img 5s ease-in-out forwards;
+    }
+    .main-content-contactMe-text {
+        width: 50vw;
+    }
+    .main-content-contactMe-text1 {
+        font-size: 2.3vh;
+        min-width: 0vw;
+        width: 50vw;
+    }
+    .text-link {
+        font-size: 2vh;
+    }
+    .composs {
+        position: absolute;
+        top: 26vh;
+        left: 28vw;
+        height: 5vh;
+        width: 5vw;
+    }
+    .main-content-contactMe-img2 {
+        position: absolute;
+        top: 21vh;
+        left: 0vw;
+        width: 25vw;
+        height: 74vh;
+        animation: img2 5s ease-in-out forwards;
+    }
+    .textDiv0 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv1 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv2 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv3 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv4 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv5 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv6 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv7 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv8 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv9 {
+        opacity: 1.5;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv10 {
+        opacity: 1.5;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv11 {
+        opacity: 1.5;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv12 {
+        opacity: 1.5;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv13 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv14 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv15 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv6 {
+        opacity: 1.5;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv7 {
+        opacity: 1.5;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv18 {
+        opacity: 1.5;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv19 {
+        opacity: 1.5;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv20 {
+        opacity: 1.5;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv21 {
+        opacity: 1.5;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv22 {
+        opacity: 1.5;
+        animation: textDiv 10s ease-in-out forwards;
+    }
+    .textDiv23 {
+        opacity: 1.5;
+        animation: textDiv 11s ease-in-out forwards;
+    }
+    .textDiv24 {
+        opacity: 1.5;
+        animation: textDiv 12s ease-in-out forwards;
+    }
+    .textDiv25 {
+        opacity: 1.5;
+        animation: textDiv 13s ease-in-out forwards;
+    }
+    .textDiv26 {
+        opacity: 1.5;
+        animation: textDiv 14s ease-in-out forwards;
+    }
+    .textDiv27 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv28 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv29 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv30 {
+        opacity: 1.5;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv31 {
+        opacity: 1.5;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv32 {
+        opacity: 1.5;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv33 {
+        opacity: 1.5;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv34 {
+        opacity: 1.5;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv35 {
+        opacity: 1.5;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv36 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv37 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv38 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv39 {
+        opacity: 1.5;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv40 {
+        opacity: 1.5;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv41 {
+        opacity: 1.5;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv42 {
+        opacity: 1.5;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv43 {
+        opacity: 1.5;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv44 {
+        opacity: 1.5;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv45 {
+        opacity: 1.5;
+        animation: textDiv 10s ease-in-out forwards;
+    }
+    .textDiv45 {
+        opacity: 1.5;
+        animation: textDiv 11s ease-in-out forwards;
+    }
+    .textDiv46 {
+        opacity: 1.5;
+        animation: textDiv 12s ease-in-out forwards;
+    }
+    .textDiv47 {
+        opacity: 1.5;
+        animation: textDiv 13s ease-in-out forwards;
+    }
+    .textDiv48 {
+        opacity: 1.5;
+        animation: textDiv 14s ease-in-out forwards;
+    }
+    .textDiv49 {
+        opacity: 1.5;
+        animation: textDiv 15s ease-in-out forwards;
+    }
+    .textDiv50 {
+        opacity: 1.5;
+        animation: textDiv 16s ease-in-out forwards;
+    }
+    .textDiv51 {
+        opacity: 1.5;
+        animation: textDiv 17s ease-in-out forwards;
+    }
+}
+
+@media (max-width: 768px) {
+    @keyframes img {
+        0% {
+            position: absolute;
+            top: 22vh;
+            left: 101vw;
+            width: 10vw;
+            height: 10vh;
+        }
+        50% {
+            position: absolute;
+            top: 22vh;
+            left: 25vw;
+            width: 10vw;
+            height: 10vh;
+        }
+        100% {
+            position: absolute;
+            top: 11vh;
+            left: 25vw;
+            width: 74vw;
+            height: 88.8vh;
+        }
+    }
+    @keyframes img2 {
+        0% {
+            top: 21vh;
+        left: -10vw;
+        width: 5vw;
+        height: 16vh;
+        }
+        50% {
+            top: 21vh;
+        left: 0vw;
+        width: 5vw;
+        height: 16vh;
+        }
+        100% {
+            top: 21vh;
+        left: 0vw;
+        width: 25vw;
+        height: 74vh;
+        }
+    }
+    @keyframes textDiv {
+        0% {opacity: 0;}
+        100% {opacity: 1.5;}
+    }
+    .main-content-contactMe-img {
+        position: absolute;
+        top: 11vh;
+        left: 25vw;
+        width: 74vw;
+        height: 88.8vh;
+        animation: img 5s ease-in-out forwards;
+    }
+    .main-content-contactMe-text {
+        width: 50vw;
+    }
+    .main-content-contactMe-text1 {
+        font-size: 2.3vh;
+        min-width: 0vw;
+        width: 50vw;
+    }
+    .text-link {
+        font-size: 2vh;
+    }
+    .composs {
+        position: absolute;
+        top: 26vh;
+        left: 28vw;
+        height: 5vh;
+        width: 5vw;
+    }
+    .main-content-contactMe-img2 {
+        position: absolute;
+        top: 21vh;
+        left: 0vw;
+        width: 25vw;
+        height: 74vh;
+        animation: img2 5s ease-in-out forwards;
+    }
+    .textDiv0 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv1 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv2 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv3 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv4 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv5 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv6 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv7 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv8 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv9 {
+        opacity: 1.5;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv10 {
+        opacity: 1.5;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv11 {
+        opacity: 1.5;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv12 {
+        opacity: 1.5;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv13 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv14 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv15 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv6 {
+        opacity: 1.5;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv7 {
+        opacity: 1.5;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv18 {
+        opacity: 1.5;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv19 {
+        opacity: 1.5;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv20 {
+        opacity: 1.5;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv21 {
+        opacity: 1.5;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv22 {
+        opacity: 1.5;
+        animation: textDiv 10s ease-in-out forwards;
+    }
+    .textDiv23 {
+        opacity: 1.5;
+        animation: textDiv 11s ease-in-out forwards;
+    }
+    .textDiv24 {
+        opacity: 1.5;
+        animation: textDiv 12s ease-in-out forwards;
+    }
+    .textDiv25 {
+        opacity: 1.5;
+        animation: textDiv 13s ease-in-out forwards;
+    }
+    .textDiv26 {
+        opacity: 1.5;
+        animation: textDiv 14s ease-in-out forwards;
+    }
+    .textDiv27 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv28 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv29 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv30 {
+        opacity: 1.5;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv31 {
+        opacity: 1.5;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv32 {
+        opacity: 1.5;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv33 {
+        opacity: 1.5;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv34 {
+        opacity: 1.5;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv35 {
+        opacity: 1.5;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv36 {
+        opacity: 1.5;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv37 {
+        opacity: 1.5;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv38 {
+        opacity: 1.5;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv39 {
+        opacity: 1.5;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv40 {
+        opacity: 1.5;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv41 {
+        opacity: 1.5;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv42 {
+        opacity: 1.5;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv43 {
+        opacity: 1.5;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv44 {
+        opacity: 1.5;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv45 {
+        opacity: 1.5;
+        animation: textDiv 10s ease-in-out forwards;
+    }
+    .textDiv45 {
+        opacity: 1.5;
+        animation: textDiv 11s ease-in-out forwards;
+    }
+    .textDiv46 {
+        opacity: 1.5;
+        animation: textDiv 12s ease-in-out forwards;
+    }
+    .textDiv47 {
+        opacity: 1.5;
+        animation: textDiv 13s ease-in-out forwards;
+    }
+    .textDiv48 {
+        opacity: 1.5;
+        animation: textDiv 14s ease-in-out forwards;
+    }
+    .textDiv49 {
+        opacity: 1.5;
+        animation: textDiv 15s ease-in-out forwards;
+    }
+    .textDiv50 {
+        opacity: 1.5;
+        animation: textDiv 16s ease-in-out forwards;
+    }
+    .textDiv51 {
+        opacity: 1.5;
+        animation: textDiv 17s ease-in-out forwards;
+    }
+}
+
+@media (max-width: 600px) {
+    @keyframes img {
+        0% {
+            position: absolute;
+            top: 22vh;
+            left: 101vw;
+            width: 10vw;
+            height: 10vh;
+        }
+        50% {
+            position: absolute;
+            top: 22vh;
+            left: 25vw;
+            width: 10vw;
+            height: 10vh;
+        }
+        100% {
+            position: absolute;
+            top: 20vh;
+            left: 0vw;
+            width: 100vw;
+            height: 88.8vh;
+        }
+    }
+    @keyframes img2 {
+        0% {
+            top: 21vh;
+        left: -10vw;
+        width: 5vw;
+        height: 16vh;
+        }
+        50% {
+            top: 21vh;
+        left: 0vw;
+        width: 5vw;
+        height: 16vh;
+        }
+        100% {
+        top: 100vh;
+        left: 0vw;
+        width: 100vw;
+        height: 74vh;
+        }
+    }
+    @keyframes textDiv {
+        0% {opacity: 0;}
+        100% {opacity: 1.5;}
+    }
+    .main-content-contactMe-img {
+        position: absolute;
+        top: 11vh;
+        left: 25vw;
+        width: 74vw;
+        height: 88.8vh;
+        animation: img 5s ease-in-out forwards;
+    }
+    .main-content-contactMe-text {
+        width: 50vw;
+    }
+    .main-content-contactMe-text1 {
+        font-size: 2.3vh;
+        min-width: 0vw;
+        width: 100vw;
+    }
+    .text-link {
+        font-size: 3vh;
+    }
+    .composs {
+        position: absolute;
+        top: 35vh;
+        left: 5vw;
+        height: 5vh;
+        width: 7vw;
+    }
+    .main-content-contactMe-img2 {
+        position: absolute;
+        top: 21vh;
+        left: 0vw;
+        width: 25vw;
+        height: 74vh;
+        animation: img2 5s ease-in-out forwards;
+    }
+    .textDiv0 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv1 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv2 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv3 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv4 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv5 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv6 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv7 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv8 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv9 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv10 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv11 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv12 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv13 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv14 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv15 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv6 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv7 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv18 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv19 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv20 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv21 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv22 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 10s ease-in-out forwards;
+    }
+    .textDiv23 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 11s ease-in-out forwards;
+    }
+    .textDiv24 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 12s ease-in-out forwards;
+    }
+    .textDiv25 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 13s ease-in-out forwards;
+    }
+    .textDiv26 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 14s ease-in-out forwards;
+    }
+    .textDiv27 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv28 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv29 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv30 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv31 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv32 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv33 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv34 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv35 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv36 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 1s ease-in-out forwards;
+    }
+    .textDiv37 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 2s ease-in-out forwards;
+    }
+    .textDiv38 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 3s ease-in-out forwards;
+    }
+    .textDiv39 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 4s ease-in-out forwards;
+    }
+    .textDiv40 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 5s ease-in-out forwards;
+    }
+    .textDiv41 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 6s ease-in-out forwards;
+    }
+    .textDiv42 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 7s ease-in-out forwards;
+    }
+    .textDiv43 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 8s ease-in-out forwards;
+    }
+    .textDiv44 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 9s ease-in-out forwards;
+    }
+    .textDiv45 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 10s ease-in-out forwards;
+    }
+    .textDiv45 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 11s ease-in-out forwards;
+    }
+    .textDiv46 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 12s ease-in-out forwards;
+    }
+    .textDiv47 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 13s ease-in-out forwards;
+    }
+    .textDiv48 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 14s ease-in-out forwards;
+    }
+    .textDiv49 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 15s ease-in-out forwards;
+    }
+    .textDiv50 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 16s ease-in-out forwards;
+    }
+    .textDiv51 {
+        opacity: 1.5;
+        font-size: 4vw;
+        animation: textDiv 17s ease-in-out forwards;
+    }
+}

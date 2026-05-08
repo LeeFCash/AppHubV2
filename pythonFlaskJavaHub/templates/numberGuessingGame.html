@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='guess.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Guessing Game</h1>
+        <p>Guess a number between 1 and 100</p>
+
+        <input type="number" id="guessInput" placeholder="Enter your guess">
+        <button onclick="checkGuess()">Guess</button>
+
+        <p id="message"></p>
+        <p id="tries"></p>
+
+        <button onclick="resetGame()" class="reset">Restart Game</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='guess.js') }}"></script>
+</body>
+</html>

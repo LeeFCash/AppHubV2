@@ -1,0 +1,100 @@
+from flask import Flask, render_template, request, jsonify
+import webbrowser
+import subprocess
+import time
+import os
+import atexit
+import sys
+#from datetime import datetime
+#def open_browser():
+#    webbrowser.open("http://localhost:5001/")
+
+def get_base_path():
+    if hasattr(sys, '_MEIPASS'):
+        return sys._MEIPASS
+    return os.path.abspath(".")
+
+def start_backend():
+    global backend_process
+
+    base_path = get_base_path()
+
+    backend_dir = os.path.join(base_path, "exe", "LinuxArch02", "backend")
+
+    # OS-specific java path
+    if os.name == "nt":
+        exe_path = os.path.join(backend_dir, "backend.exe")
+    else:
+        exe_path = os.path.join(backend_dir, "bin", "backend")
+
+    if not os.path.exists(exe_path):
+        print("Backend executable not found. Running without backend.")
+        return False
+
+    try:
+        backend_process = subprocess.Popen([exe_path])
+        return True
+    except Exception as e:
+        print("Failed to start backend:", e)
+        return False
+#    backend_process = subprocess.Popen([
+#        java_path,
+#        "-jar",
+#        jar_path
+#    ])
+
+def stop_backend():
+    if backend_process:
+        backend_process.terminate()
+
+atexit.register(stop_backend)
+
+base_path = get_base_path()
+app = Flask(
+        __name__,
+        template_folder=os.path.join(base_path, "templates"),
+        static_folder=os.path.join(base_path, "static")
+        )
+@app.route('/')
+def home_page():
+    return render_template('homePage.html')
+#
+@app.route('/digital_portfolio/home_page')
+def digital_portfolio_home_page():
+    return render_template('index.html')
+#
+@app.route('/digital_portfolio/about_me_tab')
+def digital_portfolio_about_me_tab():
+    return render_template('aboutMeTab.html')
+#
+@app.route('/digital_portfolio/skills')
+def digital_portfolio_skills():
+    return render_template('skills.html')
+#
+@app.route('/digital_portfolio/contact_me')
+def digital_portfolio_contact_me():
+    return render_template('contactMe.html')
+#
+@app.route('/numberGuessingGame')
+def testApp():
+    return render_template('numberGuessingGame.html')
+#
+#webbrowser.open("http://localhost:5001/")
+#
+if __name__ == '__main__':
+    # comment or
+    """
+    this for comment
+    """
+    #threading.Timer(1.0, open_browser).start()# for if I want delay
+    #start_backend()
+    backend_started = start_backend()
+    #
+    if backend_started:
+        time.sleep(3)
+    else:
+        print("Backend unavailable")
+    #time.sleep(5)
+    webbrowser.open("http://localhost:5001/")
+    app.run(debug = False, use_reloader = False, port = 5001)
+    stop_backend()

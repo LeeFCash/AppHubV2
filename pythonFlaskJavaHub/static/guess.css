@@ -1,0 +1,28 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.reset {
+    background-color: crimson;
+    color: white;
+}

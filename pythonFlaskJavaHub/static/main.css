@@ -1,0 +1,90 @@
+/*@import "tab1.css";
+@import "tab2.css";
+@import "tab3.css";*/
+
+/*
+@keyframes move1 {
+        0% {
+            opacity: 0.0;
+        }
+        100% {
+            opacity: 1.5;
+            top: 10vh;
+            left: 11vw;
+            font-size: 1vw;
+        }
+}
+*/
+body {
+	background-color: black;
+	color: white;
+	font-size: 2vh;
+}
+header nav {
+	display: block;
+	border-color: white;
+	border-style: solid;
+	border-width: 1vh;
+}
+header nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+header nav ul li {
+	list-style: none;
+	margin: 0 auto;
+}
+header nav ul li button {
+	border-radius: 50px;
+	/*border-width: 50px;*/
+	border-color: blue;
+	font-size: 20px;
+	align-self: center;
+}
+section div {
+	max-width: 33%;
+	justify-content: center;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+/*	flex-direction: row;*/
+}
+
+.maxWidthAndHeight100Per {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.maxWidthAndHeight100vwOrh {
+	max-width: 100vw;
+	max-height: 100vh;
+}
+
+/*.g {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}*/
+.margin1vw {
+	margin: 1vw;
+}
+
+.max30vw {
+	max-width: 20vw;
+}
+
+.max70vw {
+	max-width: 70vw;
+}
+
+.radius50vw {
+	border-radius: 50vw;
+}
+
+.justifyCenter {
+	justify-content: center;
+}
+
+/*@media (max-width: 1200px) {original => 1919px}*/

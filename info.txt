@@ -1,0 +1,1 @@
+sudo nvim /etc/environment # if using niri you may need to add "_JAVA_AWT_WM_NONREPARENTING=1" to file or do "_JAVA_AWT_WM_NONREPARENTING=1 java AppLauncherUI"

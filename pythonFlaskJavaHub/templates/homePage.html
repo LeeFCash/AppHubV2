@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="./../static/homePage.css" />
+	</head>
+	<body>
+		<h1> Here is all the apps </h1>
+		<div class="grid2cAuto">
+			<div class="grid1cAuto maxvw30">
+				<p>Information (<br>if error check if java backend is running on port: <br>localhost:8080/api/digital-portfolio/contactMe<br>)</p>
+				<ul>
+					<li id="email">refresh page for content( fix bug later( Lee Cash ) )</li>
+					<li id="phoneNumber">refresh page for content( fix bug later( Lee Cash ) )</li>
+					<li id="name">refresh page for content( fix bug later( Lee Cash ) )</li>
+					<li id="education">refresh page for content( fix bug later( Lee Cash ) )</li>
+					<li id="dBTSNPEAward">refresh page for content( fix bug later( Lee Cash ) )</li>
+					<li id="selfDisciplineReward">refresh page for content( fix bug later( Lee Cash ) )</li>
+					<li id="linkGithub">refresh page for content( fix bug later( Lee Cash ) )</li>
+					<li id="linkYoutube">refresh page for content( fix bug later( Lee Cash ) )</li>
+					<li id="linkResume">refresh page for content( fix bug later( Lee Cash ) )</li>
+				</ul>
+			</div>
+			<div class="flexWrap">
+				<div class="grid1cAuto whiteBorder maxper100">
+					<a href="./digital_portfolio/home_page"><img class="maxper100" src="{{ url_for('static', filename='../static/IMGs/faceBAW.png') }}" alt="Image for Digital Portfolio."></a>
+					<a href="./digital_portfolio/home_page"><p>Digital Portfolio</p></a>
+				</div>
+				<div class="grid1cAuto whiteBorder maxper50">
+					<a href="./numberGuessingGame" class="maxper100"><img class="maxper100" src="{{ url_for('static', filename='../static/IMGs/#.png') }}" alt="Image for (right now) Dummy app."></a>
+					<a href="./numberGuessingGame"><p>Number Guessing Game</p></a>
+				</div>
+			</div>
+		</div>
+		<script src="./../static/homePage.js"></script>
+	</body>
+</html>

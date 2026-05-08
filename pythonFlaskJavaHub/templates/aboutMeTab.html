@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./../static/main.css" />
+  <title>
+    digital portfolio made by LeeCash.
+  </title>
+ </head>
+ <body>
+  <header>
+    <nav><ul>
+      <li><button><a href="./about_me_tab">About me</a></button></li>
+      <li><button><a href="./skills">skills</a></button></li>
+      <li><button><a href="./contact_me">contact me</a></button></li>
+    </ul></nav>
+  </header>
+  <main class="flex maxWidthAndHeight100vwOrh margin1vw justifyCenter">
+        <section class="maxWidthAndHeight100Per justifyCenter">
+            <img class="radius50vw max30vw" src="{{ url_for('static', filename='../static/IMGs/MeIMG.jpg') }}">
+            <div class="Pinfo">
+                <div class="flex"><p>Name: </p><p class="PinfoC1Space">Lee Cash</p></div>
+                <div class="flex"><p>Age: </p><p class="PinfoC1Space">19</p></div>
+                <div class="flex"><p>Education: </p><p class="PinfoC1Space"> High school Diploma</p></div>
+            </div>
+        </section>
+        <section class="flex maxWidthAndHeight100Per max70vw justifyCenter">
+            <div class="flex">
+                <img class="maxWidthAndHeight100Per margin1vw" src="{{ url_for('static', filename='../static/IMGs/diploma.jpg') }}">
+                <p class="IMGD"> I've received this diploma as a result of graduating.</p>
+            </div>
+            <div class="flex">
+                <img class="maxWidthAndHeight100Per margin1vw" src="{{ url_for('static', filename='../static/IMGs/awardDC.png') }}">
+                <p class="IMGD"> The Teachers at Hixson High School anonymously voted 3 people to receive a reward for self discipline.</p>
+            </div>
+            <div class="flex">
+                <img class="maxWidthAndHeight100Per margin1vw" src="{{ url_for('static', filename='../static/IMGs/rewardTeaching.jpg') }}">
+                <p class="IMGD">I got the Denise Burt-Turner Special Needs P.E award for taking a small group of special needs students to a classroom and teaching them.</p>
+            </div>
+        </section>
+  </main>
+ </body>
+</html>
