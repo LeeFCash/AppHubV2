@@ -7,7 +7,7 @@ public class Menu extends JFrame {
 	//
 	Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 	int width = (int)(screenSize.width * 0.30);
-	int height = (int)(screenSize.height * 0.50);
+	int height = (int)(screenSize.height * 0.90);
 	//
 	Menu(){
 		JButton newGame = new JButton("Start new game");
@@ -16,6 +16,10 @@ public class Menu extends JFrame {
 		newGame.setBounds(200, 100, 100, 50);
 		seeScore.setBounds(200, 100, 100, 50);
 		quitAll.setBounds(200, 100, 100, 50);
+		newGame.addActionListener(e->{
+			GameWindow gameWindow = new GameWindow();
+			System.out.println("GameWindow clicked.");
+		});
 		seeScore.addActionListener(e->{
 			Score score = new Score();
 			System.out.println("seeScore clicked.");
@@ -26,6 +30,7 @@ public class Menu extends JFrame {
 		this.setDefaultCloseOperation(this.DISPOSE_ON_CLOSE);
 		this.setTitle("Space Invaders Menu");
 		this.setSize(width, height);
+		this.setResizable(false);
 		this.setLayout(new GridLayout(3, 1));
 		this.setLocationRelativeTo(null);
 		this.add(newGame);

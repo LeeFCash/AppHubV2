@@ -9,8 +9,8 @@ import java.io.FileReader;
 import javax.swing.JLabel;
 public class Score extends JFrame {
 	Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-        int width = (int)(screenSize.width * 0.30);
-        int height = (int)(screenSize.height * 0.50);
+        int windowWidth = (int)(screenSize.width * 0.30);
+        int windowHeight = (int)(screenSize.height * 0.05);
 	boolean check(){
 //		try{
 		File file = new File("score.txt");
@@ -43,7 +43,8 @@ public class Score extends JFrame {
 		}
 		this.setDefaultCloseOperation(this.DISPOSE_ON_CLOSE);
 		this.setTitle("Space Invaders Scores");
-		this.setSize(width, height);
+		this.setSize(windowWidth, windowHeight);
+		this.setResizable(false);
 		this.setLayout(new GridLayout(0, 1));
 		this.setLocationRelativeTo(null);
 		this.setVisible(true);

@@ -10,10 +10,13 @@ import java.net.URISyntaxException;
 //import java.util.List;
 import java.util.HashMap;
 import java.util.Map;
-
+import java.awt.Dimension;
+import java.awt.Toolkit;
 
 public class AppLauncherUI extends JFrame {
-	//private List<Process> processes = new ArrayList<>();
+	Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+	int windowWidth = (int)(screenSize.width * 0.50);
+	int windowHeight = (int)(screenSize.height * 0.99);
 	private Map<String, Process> processes = new HashMap<>();
 	private void startProcessIfNotRunning(String key, ProcessBuilder pb) throws IOException {
 		Process existing = processes.get(key);
@@ -66,7 +69,7 @@ public class AppLauncherUI extends JFrame {
         //setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         //setExtendedState(JFrame.MAXIMIZED_BOTH); // full screen
-	setSize(1200, 800);
+	setSize(windowWidth, windowHeight);
 	setLocationRelativeTo(null);
 	setVisible(true);
 	requestFocus();
